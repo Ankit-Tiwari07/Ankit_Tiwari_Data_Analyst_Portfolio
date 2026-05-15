@@ -1,0 +1,383 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ankit Tiwari | Data Analyst Portfolio</title>
+    <link rel="stylesheet" href="style.css">
+    <!-- Google Fonts: Inter and Roboto Mono for data-focused look -->
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&family=Roboto+Mono:wght@400;500&display=swap" rel="stylesheet">
+    <!-- Font Awesome for icons -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <!-- AOS for scroll animations -->
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+</head>
+<body class="dark-theme">
+    <!-- Navigation -->
+    <nav class="navbar">
+        <div class="container">
+            <a href="#" class="logo">Ankit Tiwari<span>.</span></a>
+            <ul class="nav-links">
+                <li><a href="#home">Home</a></li>
+                <li><a href="#about">About</a></li>
+                <li><a href="#skills">Skills</a></li>
+                <li><a href="#projects">Projects</a></li>
+                <li><a href="#education">Education</a></li>
+                <li><a href="#experience">Experience</a></li>
+                <li><a href="#certifications">Certifications</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+            <div class="nav-extras">
+                <a href="resume.pdf" class="btn btn-primary btn-sm nav-download" download>
+                    <i class="fas fa-download"></i> <span>Resume</span>
+                </a>
+                <button id="theme-toggle" aria-label="Toggle dark/light mode">
+                    <i class="fas fa-moon"></i>
+                </button>
+                <div class="hamburger">
+                    <span></span>
+                    <span></span>
+                    <span></span>
+                </div>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <section id="home" class="hero">
+        <div class="container">
+            <div class="hero-wrapper">
+                <div class="hero-content" data-aos="fade-up">
+                    <h2 class="hero-subtitle">Hi, I'm</h2>
+                    <h1 class="hero-title">Ankit Tiwari</h1>
+                    <h3 class="hero-roles">
+                        <span class="typed-text"></span><span class="cursor">&nbsp;</span>
+                    </h3>
+                    <p class="hero-description">
+                        I turn data into actionable business insights using SQL, Python, and visualization tools.
+                    </p>
+                    <div class="hero-ctas">
+                        <a href="#projects" class="btn btn-outline">View Projects</a>
+                        <a href="resume.pdf" class="btn btn-outline" download>Download Resume</a>
+                        <a href="#contact" class="btn btn-outline">Contact Me</a>
+                    </div>
+                    <div class="hero-social-box" data-aos="fade-up" data-aos-delay="100">
+                        <div class="hero-social-links">
+                            <a href="https://wa.me/919971835802" target="_blank" class="social-icon" title="WhatsApp"><i class="fab fa-whatsapp"></i></a>
+                            <a href="tel:9971835802" class="social-icon" title="Contact"><i class="fas fa-phone"></i></a>
+                            <a href="https://github.com/Ankit-Tiwari07" target="_blank" class="social-icon"><i class="fab fa-github"></i></a>
+                            <a href="https://www.linkedin.com/in/ankittiwari07" target="_blank" class="social-icon"><i class="fab fa-linkedin"></i></a>
+                        </div>
+                    </div>
+                </div>
+                <div class="hero-image" data-aos="fade-left">
+                    <div class="image-box">
+                        <img src="images/projects/Ankit Tiwari Profile.jpeg" alt="Ankit Tiwari Profile">
+                    </div>
+                </div>
+            </div>
+            <div class="hero-kpis" data-aos="fade-up" data-delay="200">
+                <div class="kpi-card">
+                    <span class="kpi-value">95%</span>
+                    <span class="kpi-label">Accuracy Rate</span>
+                </div>
+                <div class="kpi-card">
+                    <span class="kpi-value">20%</span>
+                    <span class="kpi-label">Churn Reduction</span>
+                </div>
+                <div class="kpi-card">
+                    <span class="kpi-value">15%</span>
+                    <span class="kpi-label">ROI Increase</span>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- About Section -->
+    <section id="about" class="about section">
+        <div class="container">
+            <h2 class="section-title" data-aos="fade-up">About Me</h2>
+            <div class="about-content-wrapper">
+                <div class="about-text" data-aos="fade-right">
+                    <p>
+                        I am a Data Analyst with a strong foundation in SQL, Python, and Power BI, passionate about transforming raw data into meaningful business insights. I have hands-on experience in predictive modeling, customer segmentation, and KPI-driven analysis across domains like finance, retail, and healthcare.
+                    </p>
+                    <p>
+                        Currently working as an IT Consultant, I collaborate with cross-functional teams to solve real-world business problems using data-driven approaches. I have built forecasting models, churn prediction systems, and interactive dashboards that improve decision-making and business performance.
+                    </p>
+                    <p>
+                        I enjoy uncovering hidden patterns in data and continuously strive to enhance my analytical and problem-solving skills.
+                    </p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Skills Section -->
+    <section id="skills" class="skills section bg-light">
+        <div class="container">
+            <h2 class="section-title" data-aos="fade-up">Technical Skills</h2>
+            <div class="skills-grid">
+                <div class="skill-category" data-aos="zoom-in" data-aos-delay="100">
+                    <div class="category-icon"><i class="fas fa-code"></i></div>
+                    <h3>Programming</h3>
+                    <ul>
+                        <li>SQL (Advanced)</li>
+                        <li>Python (Pandas, NumPy, Matplotlib, Seaborn, Plotly)</li>
+                    </ul>
+                </div>
+                <div class="skill-category" data-aos="zoom-in" data-aos-delay="200">
+                    <div class="category-icon"><i class="fas fa-chart-area"></i></div>
+                    <h3>Visualization</h3>
+                    <ul>
+                        <li>Power BI</li>
+                        <li>Tableau</li>
+                        <li>Excel (Advanced)</li>
+                    </ul>
+                </div>
+                <div class="skill-category" data-aos="zoom-in" data-aos-delay="300">
+                    <div class="category-icon"><i class="fas fa-server"></i></div>
+                    <h3>Databases</h3>
+                    <ul>
+                        <li>MySQL</li>
+                        <li>PostgreSQL</li>
+                        <li>SQL Server</li>
+                    </ul>
+                </div>
+                <div class="skill-category" data-aos="zoom-in" data-aos-delay="400">
+                    <div class="category-icon"><i class="fas fa-flask"></i></div>
+                    <h3>Methodology</h3>
+                    <ul>
+                        <li>EDA & A/B Testing</li>
+                        <li>KPI Analysis</li>
+                        <li>Predictive Modeling</li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Projects Section -->
+    <section id="projects" class="projects section">
+        <div class="container">
+            <h2 class="section-title" data-aos="fade-up">Projects</h2>
+            <div class="project-grid">
+                <!-- Project 1: Financial Operations Analytics -->
+                <div class="project-card" data-aos="fade-up">
+                    <div class="project-img">
+                        <img src="https://images.unsplash.com/photo-1611974717483-9b910c0c74c6?q=80&w=800&auto=format&fit=crop" alt="Financial Operations Analytics">
+                    </div>
+                    <div class="project-content">
+                        <h3>Financial Operations Analytics</h3>
+                        <div class="project-tags">
+                            <span>Python</span> <span>PostgreSQL</span> <span>Power BI</span> <span>Prophet</span>
+                        </div>
+                        <p class="project-desc">Built an end-to-end analytics solution to analyze financial data, forecast revenue, and identify customer behavior patterns.</p>
+                        <div class="project-impact">
+                            <strong>Impact:</strong> Improved business forecasting and helped identify high-risk customers for retention strategies.
+                        </div>
+                        <div class="project-links">
+                            <a href="https://github.com/Ankit-Tiwari07" target="_blank" class="btn-icon"><i class="fab fa-github"></i></a>
+                            <a href="https://www.linkedin.com/in/ankittiwari07" target="_blank" class="btn-icon"><i class="fab fa-linkedin"></i></a>
+                            <a href="#" class="btn-text">View Details</a>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Project 2: Retail & Marketing Analytics -->
+                <div class="project-card" data-aos="fade-up" data-aos-delay="100">
+                    <div class="project-img">
+                        <img src="https://images.unsplash.com/photo-1460925895917-afdab827c52f?q=80&w=800&auto=format&fit=crop" alt="Retail & Marketing Analytics">
+                    </div>
+                    <div class="project-content">
+                        <h3>Retail & Marketing Analytics</h3>
+                        <div class="project-tags">
+                            <span>Python</span> <span>SQL</span> <span>Scikit-learn</span> <span>Power BI</span>
+                        </div>
+                        <p class="project-desc">Analyzed retail transaction data to uncover customer behavior, sales trends, and marketing opportunities.</p>
+                        <div class="project-impact">
+                            <strong>Impact:</strong> Enabled data-driven marketing strategies and improved ROI targeting.
+                        </div>
+                        <div class="project-links">
+                            <a href="https://github.com/Ankit-Tiwari07" target="_blank" class="btn-icon"><i class="fab fa-github"></i></a>
+                            <a href="https://www.linkedin.com/in/ankittiwari07" target="_blank" class="btn-icon"><i class="fab fa-linkedin"></i></a>
+                            <a href="#" class="btn-text">View Details</a>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Project 3: Healthcare Analytics -->
+                <div class="project-card" data-aos="fade-up" data-aos-delay="200">
+                    <div class="project-img">
+                        <img src="https://images.unsplash.com/photo-1576091160550-2173dba999ef?q=80&w=800&auto=format&fit=crop" alt="Healthcare Analytics">
+                    </div>
+                    <div class="project-content">
+                        <h3>Healthcare Analytics – Readmission Prediction</h3>
+                        <div class="project-tags">
+                            <span>Python</span> <span>EDA</span> <span>Scikit-learn</span> <span>SQL</span>
+                        </div>
+                        <p class="project-desc">Developed a predictive model to identify patients at risk of hospital readmission within 30 days.</p>
+                        <div class="project-impact">
+                            <strong>Impact:</strong> Helped identify high-risk patients, supporting better healthcare decision-making.
+                        </div>
+                        <div class="project-links">
+                            <a href="https://github.com/Ankit-Tiwari07" target="_blank" class="btn-icon"><i class="fab fa-github"></i></a>
+                            <a href="https://www.linkedin.com/in/ankittiwari07" target="_blank" class="btn-icon"><i class="fab fa-linkedin"></i></a>
+                            <a href="#" class="btn-text">View Details</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Education Section -->
+    <section id="education" class="education section bg-light">
+        <div class="container">
+            <h2 class="section-title" data-aos="fade-up">Education</h2>
+            <div class="education-grid">
+                <!-- B-Tech -->
+                <div class="education-card" data-aos="fade-up">
+                    <div class="education-icon"><i class="fas fa-university"></i></div>
+                    <div class="education-content">
+                        <h3>B-Tech</h3>
+                        <p class="institution">Buddha Institute Of Technology, Gorakhpur</p>
+                        <p class="affiliation">Affiliated to Dr. A.P.J Abdul Kalam Technical University, Lucknow</p>
+                        <span class="education-date">Aug 2020 - May 2024</span>
+                    </div>
+                </div>
+
+                <!-- 12th -->
+                <div class="education-card" data-aos="fade-up" data-aos-delay="100">
+                    <div class="education-icon"><i class="fas fa-school"></i></div>
+                    <div class="education-content">
+                        <h3>Senior Secondary School</h3>
+                        <p class="institution">Sanwari Devi Intermediate College (Deoria)</p>
+                        <p class="affiliation">Uttar Pradesh Madhyamik Shiksha Parishad (UP Board), Prayagraj, Uttar Pradesh</p>
+                        <span class="education-date">Aug 2016 – May 2018</span>
+                    </div>
+                </div>
+
+                <!-- 10th -->
+                <div class="education-card" data-aos="fade-up" data-aos-delay="200">
+                    <div class="education-icon"><i class="fas fa-graduation-cap"></i></div>
+                    <div class="education-content">
+                        <h3>Secondary School</h3>
+                        <p class="institution">Sanwari Devi Intermediate College (Deoria)</p>
+                        <p class="affiliation">Uttar Pradesh Madhyamik Shiksha Parishad (UP Board), Prayagraj, Uttar Pradesh</p>
+                        <span class="education-date">June 2015 – May 2016</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Experience Section -->
+    <section id="experience" class="experience section">
+        <div class="container">
+            <h2 class="section-title" data-aos="fade-up">Professional Experience</h2>
+            <div class="timeline">
+                <div class="timeline-item" data-aos="fade-left">
+                    <div class="timeline-dot"></div>
+                    <div class="timeline-date">June 2024 – May 2026</div>
+                    <div class="timeline-content">
+                        <h3>IT Consultant (Data & Business Analysis)</h3>
+                        <p class="company-name">Bhoomi TechZone Pvt. Ltd.</p>
+                        <p class="experience-overview">
+                            Worked on analyzing business data, building reports, and delivering insights to support data-driven decision-making.
+                        </p>
+                        <ul class="experience-list">
+                            <li>Analyzed client requirements and translated them into data-driven solutions using SQL and Excel.</li>
+                            <li>Worked with structured datasets to perform data analysis, reporting, and dashboard development.</li>
+                            <li>Identified customer demand trends and business patterns to support service optimization.</li>
+                            <li>Developed KPI reports and dashboards for performance monitoring and business insights.</li>
+                            <li>Collaborated with cross-functional teams to solve business problems using data.</li>
+                            <li>Presented insights to stakeholders, improving decision-making speed by 20%.</li>
+                        </ul>
+                        <div class="experience-tools">
+                            <strong>Tools:</strong> <span>SQL, Excel, Power BI, Python</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Certifications Section -->
+    <section id="certifications" class="certifications section bg-light">
+        <div class="container">
+            <h2 class="section-title" data-aos="fade-up">Certifications</h2>
+            <div class="cert-grid">
+                <!-- SkillSetMaster -->
+                <div class="cert-card" data-aos="flip-up">
+                    <i class="fas fa-certificate"></i>
+                    <h4>Data Analytics Training</h4>
+                    <p class="institution">SkillSetMaster</p>
+                    <p class="coverage"><strong>Coverage:</strong> Advanced Excel, Advanced SQL, Python (NumPy, Pandas, Matplotlib, Seaborn, Plotly), Power BI, Tableau, Statistics</p>
+                </div>
+                <!-- Physics Wallah -->
+                <div class="cert-card" data-aos="flip-up" data-aos-delay="100">
+                    <i class="fas fa-certificate"></i>
+                    <h4>Data Analytics Training</h4>
+                    <p class="institution">Physics Wallah</p>
+                    <p class="coverage"><strong>Coverage:</strong> Excel, SQL, Python for Data Analysis, Data Visualization, Business Intelligence Tools, Statistics, Business Understanding</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact" class="contact section">
+        <div class="container">
+            <h2 class="section-title" data-aos="fade-up">Get In Touch</h2>
+            <div class="contact-wrapper">
+                <div class="contact-info" data-aos="fade-right">
+                    <h3>Let's talk about your data.</h3>
+                    <p>I'm currently open to new opportunities and collaborations. Feel free to reach out via form or social links!</p>
+                    <div class="contact-links">
+                        <a href="mailto:360ankittiwari.cse@gmail.com"><i class="fas fa-envelope"></i> 360ankittiwari.cse@gmail.com</a>
+                        <a href="tel:9971835802"><i class="fas fa-phone"></i> 9971835802</a>
+                    </div>
+                </div>
+                <form class="contact-form" data-aos="fade-left">
+                    <div class="form-group">
+                        <input type="text" placeholder="Your Name" required>
+                    </div>
+                    <div class="form-group">
+                        <input type="email" placeholder="Your Email" required>
+                    </div>
+                    <div class="form-group">
+                        <textarea placeholder="Your Message" rows="5" required></textarea>
+                    </div>
+                    <button type="submit" class="btn btn-primary">Send Message</button>
+                </form>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-social-connect">
+                <h3>Let's Connect</h3>
+                <div class="social-links-grid">
+                    <a href="mailto:360ankittiwari.cse@gmail.com" title="Gmail"><i class="fas fa-envelope"></i></a>
+                    <a href="tel:9971835802" title="Contact"><i class="fas fa-phone"></i></a>
+                    <a href="https://wa.me/919971835802" target="_blank" title="WhatsApp"><i class="fab fa-whatsapp"></i></a>
+                    <a href="https://github.com/Ankit-Tiwari07" target="_blank" title="GitHub"><i class="fab fa-github"></i></a>
+                    <a href="https://www.linkedin.com/in/ankittiwari07" target="_blank" title="LinkedIn"><i class="fab fa-linkedin"></i></a>
+                    <a href="https://www.instagram.com/bug_fixer_07/" target="_blank" title="Instagram"><i class="fab fa-instagram"></i></a>
+                    <a href="https://x.com/bug_fixer_07" target="_blank" title="Twitter"><i class="fab fa-twitter"></i></a>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <p>&copy; 2026 Ankit Tiwari. Built with <i class="fas fa-heart"></i> and Data.</p>
+            </div>
+        </div>
+    </footer>
+
+    <!-- AOS JS -->
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script src="script.js"></script>
+</body>
+</html>
